@@ -62,17 +62,11 @@ predictions = predict_churn(new_data)
 ## Repository Structure
 
 ```
-├── data/              # (Optional) Sample dataset
-├── notebooks/         # Jupyter notebooks for EDA & modeling
-├── src/               # Python scripts for preprocessing & model training
-│   ├── preprocess.py
-│   ├── train_model.py
-│   ├── evaluate.py
-│   ├── predict.py
-├── models/            # Trained models
-├── README.md          # Project documentation
-├── requirements.txt   # Dependencies
-├── .gitignore         # Files to exclude from Git
+📂 telco-churn-prediction/
+│── 📂 data/              # Store dataset (optional: exclude from Git if large)
+│── 📂 notebooks/         # Store Jupyter notebook
+│── .gitignore            # Exclude unnecessary files (optional)
+│── README.md 
 ```
 
 ## Future Improvements
