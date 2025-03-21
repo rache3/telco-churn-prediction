@@ -32,7 +32,7 @@ This project aims to predict customer churn for a telecommunications company usi
    - Evaluated model performance on the test set
 
 ## Results
-
+The model was evaluated using accuracy, ROC-AUC, and a confusion matrix. Key insights show high recall but a high false positive rate, suggesting room for optimization.
 - **Training Accuracy**: 0.7963
 - **Test Accuracy**: 0.7906
 - **ROC-AUC Score**: 0.6679
